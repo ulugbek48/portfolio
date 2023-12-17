@@ -251,7 +251,7 @@ body {
 
 .skills {
   display: flex;
-  height: 662px;
+  height: 700px;
   flex-wrap: wrap;
   background: #031540;
   align-items: center;
@@ -274,7 +274,7 @@ body {
 }
 
 .pskills {
-  margin-top: 155px;
+  margin-top: 55px;
 }
 
 .heading {
