@@ -251,7 +251,7 @@ body {
 
 .skills {
   display: flex;
-  height: 700px;
+  height: 750px;
   flex-wrap: wrap;
   background: #031540;
   align-items: center;
@@ -272,10 +272,10 @@ body {
   padding: 0px 90px;
   margin-left: 120px;
 }
-
+/* 
 .pskills {
   margin-top: 55px;
-}
+} */
 
 .heading {
   text-align: center;
