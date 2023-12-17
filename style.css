@@ -251,7 +251,7 @@ body {
 
 .skills {
   display: flex;
-  height: 100vh;
+  height: 662px;
   flex-wrap: wrap;
   background: #031540;
   align-items: center;
