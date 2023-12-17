@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="ahref active">Home</a>
+        <a href="#about" style="--i: 2" class="ahref">About</a>
+        <a href="#skills" style="--i: 3" class="ahref">Skills</a>
+        <a href="#projects" style="--i: 4" class="ahref">Projects</a>
+        <a href="#contact" style="--i: 5" class="ahref">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-image">
+        <img src="images/user.jpg" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, I'm Ulugbek Yuldashboyev</h1>
+        <h3>Web Developer</h3>
+        <p>
+          Welcome to my digital portfolio! I'm Ulugbek Yuldashboyev, a
+          Full-Stack Developer with a knack for crafting robust and user-centric
+          web applications. Proficient in both frontend and backend
+          technologies, I specialize in creating seamless, interactive
+          experiences.
+        </p>
+        <div class="home-sci">
+          <a href="https://t.me/Ulugbek_48" target="_blank" style="--i: 6"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+          <a href="https://github.com/ulugbek48" target="_blank" style="--i: 7"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="mailto:ulugbekyuldashboyev@gmail.com"
+            target="_blank"
+            style="--i: 8"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/crimson_dw_48/"
+            target="_blank"
+            style="--i: 9"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+
+        <button class="btn" onclick="downloadCV()">Download CV</button>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h4>Full Stack Developer!</h4>
+        <p>
+          I am a student of the Tashkent Financial Institute, I studied at the
+          "Foundation" and "Bootcamp" courses of "Najot Ta'lim". In the
+          Foundation course, I mainly learned C and Python programming
+          languages, and in Bootcamp I learned NodeJs(I am skilled in server
+          side scripting and backend development using NodeJs), databases
+          (MySQL, PostgreSQL, MongoDB), Javascript, VueJs, HTML, CSS, etc.
+        </p>
+        <a class="btn" onclick="downloadCV()">More About Me </a>
+      </div>
+      <div class="about-image">
+        <img src="images/user.jpg" alt="" />
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <script></script>
+      <div class="skills-container">
+        <h1 class="heading">Technical Skills</h1>
+        <div class="technical-bars">
+          <div class="bar">
+            <i style="color: #de4b25" class="fa-brands fa-html5"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #254bdd" class="fa-brands fa-css3-alt"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i style="color: #efd81d" class="fa-brands fa-js"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #41b883" class="fa-brands fa-vuejs"></i>
+            <div class="info">
+              <span>VueJs</span>
+            </div>
+            <div class="progress-line vue">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #589352" class="fa-brands fa-node-js"></i>
+            <div class="info">
+              <span>NodeJs</span>
+            </div>
+            <div class="progress-line node">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #8a31e6" class="fa-brands fa-python"></i>
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-container pskills">
+        <h1 class="heading">Professional Skills</h1>
+
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Comunication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">TeamWork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="main-text" id="projects">
+        <h2>Latest <span>Project</span></h2>
+        <div class="portfolio-content">
+          <div class="row minimal">
+            <img src="images/ai-generated-7982956_1920.png" alt="" />
+            <div class="layer">
+              <h5>MINIMAL</h5>
+              <p>
+                MAKING BRANDS STAND OUT IS OUR OBSESSION.<br />
+                Minimalist is a full-...
+              </p>
+              <a href="https://our-team-beta.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="row">
+            <img src="images/Rectangle 31.jpg" alt="" />
+            <div class="layer">
+              <h5>Trevland</h5>
+              <p>
+                We all wish to start our year the best way possible and also
+                according to a common ...
+              </p>
+              <a href="https://japan-orcin.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="row">
+            <img src="images/industry-8303482.jpg" alt="" />
+            <div class="layer">
+              <h5>E-Com market</h5>
+              <p>Electron Commercial market,'Ashyo'</p>
+              <a href="https://github.com/ImperiaDevelopers" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>
+          I am currently open to new opportunities and collaborations. If you
+          are looking for a Full-Stack Developer who can bring your ideas to
+          life with efficiency and excellence, I would love to connect with you.
+          Feel free to explore my projects, delve into my code repositories, and
+          don't hesitate to reach out for a discussion about how we can work
+          together. Thank you for visiting, and I look forward to the
+          possibility of contributing to your next project!
+        </p>
+        <div class="contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>ulugbekyuldashboyev@gmail.com
+          </li>
+          <li><i class="fa-solid fa-phone"></i>+998917772597</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://t.me/Ulugbek_48" target="_blank" style="--i: 1"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+
+          <a
+            href="mailto:ulugbekyuldashboyev@gmail.com"
+            target="_blank"
+            style="--i: 2"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/crimson_dw_48/"
+            target="_blank"
+            style="--i: 3"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/ulugbek48" target="_blank" style="--i: 4"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="myForm">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+          <input type="" placeholder="Enter Your Subject" />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input
+            type="button"
+            value="Submit"
+            class="send"
+            onclick="sendEmail()"
+          />
+        </form>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Developed with love by <span>Yuldashboyev Ulugbek</span> ® 2023</p>
+    </div>
+  </body>
+</html>
+<script>
+  function sendEmail() {
+    // Initialize Email.js with your user ID
+    emailjs.init("service_r3pgcfb");
+
+    // Get form data
+    var form = document.getElementById("myForm");
+    var formData = new FormData(form);
+
+    // Send email
+    emailjs.sendForm("service_r3pgcfb", form).then(
+      function (response) {
+        console.log("Email sent successfully:", response);
+        // Add your success handling code here
+      },
+      function (error) {
+        console.error("Email failed to send:", error);
+        // Add your error handling code here
+      }
+    );
+    window.location.reload();
+  }
+  const downloadCV = () => {
+    const cvFilePath = "./cv/Resume.pdf";
+    console.log("aaa");
+
+    const link = document.createElement("a");
+
+    link.href = cvFilePath;
+
+    link.download = "Resume.pdf";
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+  };
+</script>
