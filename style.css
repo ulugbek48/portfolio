@@ -1080,7 +1080,7 @@ form textarea {
 @media screen and (max-width: 774px) {
   .portfolio-content {
     /* margin-top: 5%; */
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, auto));
     gap: 15px;
