@@ -1229,7 +1229,7 @@ form textarea {
 @media screen and (max-width: 555px) {
   .projects {
     height: 100%;
-    padding-top: 55px;
+    padding-top: 155px;
   }
 
   .about-text h2 {
