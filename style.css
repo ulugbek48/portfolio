@@ -760,7 +760,7 @@ form textarea {
 
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 380;
+    stroke-dashoffset: 360;
   }
 }
 
