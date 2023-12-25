@@ -373,7 +373,7 @@ body {
 }
 
 .progress-line.html span::after {
-  content: "80%";
+  content: "30%";
 }
 
 .progress-line.css span::after {
@@ -381,7 +381,7 @@ body {
 }
 
 .progress-line.javascript span::after {
-  content: "85%";
+  content: "30%";
 }
 
 .progress-line.vue span::after {
@@ -389,11 +389,11 @@ body {
 }
 
 .progress-line.node span::after {
-  content: "85%";
+  content: "30%";
 }
 
 .progress-line.python span::after {
-  content: "70%";
+  content: "35%";
 }
 
 .progress-line span::before {
@@ -742,25 +742,25 @@ form textarea {
 
 @keyframes animate-path1 {
   100% {
-    stroke-dashoffset: 55;
+    stroke-dashoffset: 155;
   }
 }
 
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 45;
+    stroke-dashoffset: 145;
   }
 }
 
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 30;
+    stroke-dashoffset: 130;
   }
 }
 
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 35;
+    stroke-dashoffset: 135;
   }
 }
 
