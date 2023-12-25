@@ -748,19 +748,19 @@ form textarea {
 
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 235;
+    stroke-dashoffset: 255;
   }
 }
 
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 290;
   }
 }
 
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 270;
+    stroke-dashoffset: 300;
   }
 }
 
